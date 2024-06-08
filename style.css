@@ -79,3 +79,12 @@ button:active{
     color: black;
     overflow: auto;
 }
+
+ul{
+  list-style-type: square; /* Estilo dos marcadores */
+  padding-left: 20px; /* Espaçamento à esquerda */
+}
+  
+ li{
+  margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+ }

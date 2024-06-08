@@ -12,11 +12,11 @@
             <h1 id="titulo">Bem-vindo(a) ao teste de temperamento</h1>
             <div id="introducaoconteiner">
             <h2 style="color: red;">Leia com atenção antes de comecar!</h2>
-            <p style="background-color: #e9ecef; padding: 15px;
-            border-radius: 10px;">Este teste ajudará você a descobrir seu tipo de temperamento. 
+            <p style="background-color: #2e2e2e; padding: 15px;
+            border-radius: 10px;color: white;">Este teste ajudará você a descobrir seu tipo de temperamento. 
             Responda cada pergunta com a opção que mais se aproxima da sua forma de agir ou pensar por instinto, não pelo que acha certo ou errado ou aprendeu ser certo. Não há respostas certas ou erradas. 
             Seja honesto e pense em situações comuns do seu dia a dia. <span style="display: block;margin-top: 15px;">Este teste é uma jornada para conhecer melhor a si mesmo, então seja sincero consigo mesmo ao responder. Suas respostas ajudarão a revelar seu tipo de temperamento de forma mais precisa. Lembre-se, não há julgamento aqui, apenas um caminho para entender melhor suas inclinações naturais. Boa sorte!</span>
-            <span style="display: block;margin-top: 15px;background-color: rgb(49, 47, 47);color: orange;padding: 8px;border-radius: 3px;">Obs:"É importante notar que este teste é destinado apenas para autoanálise e entendimento pessoal. Seus resultados não devem ser considerados como uma avaliação profissional. Eles são uma ferramenta para reflexão e autoconhecimento. Portanto, não tome decisões importantes com base apenas nos resultados deste teste."</span></p>
+            <span style="display: block;margin-top: 15px;color: orange;padding: 8px;">Obs:"É importante notar que este teste é destinado apenas para autoanálise e entendimento pessoal. Seus resultados não devem ser considerados como uma avaliação profissional. Eles são uma ferramenta para reflexão e autoconhecimento. Portanto, não tome decisões importantes com base apenas nos resultados deste teste."</span></p>
             <img src="temperamentos.png" alt="" width="200px" id="imgIntrod">
             <button id="iniciartestebtn">Iniciar Teste</button>
         </div>
@@ -25,9 +25,17 @@
                 <div id="opcoesconteiner"></div>
             </div>
         <div id="resultado" ></div>
+        <div id="chamarforms" style="display: none;">
+            <h4 style="color:blueviolet;">Muito obrigado sua participação é muito importante! <span
+                style="display: block; margin-top: 10px;">Colabore com meu desenvolvimento, se possivel deixe seu feedback para me ajudar a evoluir</span></h4>
+            <button id="chamarformsbtn">Enviar feedback</button></div>
+        <div id="forms" style="display: none;">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduJIf1jbKowbmS9pqB0id2gNutjehcLGVztWTHcuGWaMS7_w/viewform?embedded=true" width="320" height="800" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        </div>
     </div>
 
     <script src="script.js"></script>
+    <script src="modoescuro.js"></script>
 </body>
 </html>
 

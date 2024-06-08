@@ -168,7 +168,7 @@ function calcularResultado() {
 #fb050d;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento Colérico.</h1>
            <div>
            <img src="colerico.png" alt="colerico.png" width = "100px">
-            <h2>O Colérico</h2>
+            <h2 style ="color: #fb050d;">O Colérico</h2>
             </div>
             <p><strong>Características principais:</strong></p>
             <ul>
@@ -208,7 +208,7 @@ function calcularResultado() {
             <h1 class="result" style = "background-color: #069c07;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento Melancólico.</h1>
             <div>
             <img src="melancolico.png" alt="melancolico.png" width="100px">
-            <h2>O Melancólico</h2>
+            <h2 style ="color: #069c07;">O Melancólico</h2>
             </div>
             <p><strong>Características principais:</strong></p>
             <ul>
@@ -252,7 +252,7 @@ function calcularResultado() {
 #f7b96a;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento Sanguíneo.</h1>
             <div>
             <img src="sanguineo.png" alt="sanguineo.png" width="100px">
-            <h2> O Sanguíneo </h2>
+            <h2 style ="color: #f7b96a;"> O Sanguíneo </h2>
             </div>
             <p><strong>Características principais:</strong></p>
             <ul>
@@ -293,7 +293,7 @@ function calcularResultado() {
 #0765e2;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento fleumático.</h1>
             <div>
             <img src="fleumatico.png" alt="fleumatico.png" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">
-            <h2>O Fleumático</h2>
+            <h2 style ="color: #0765e2;">O Fleumático</h2>
             </div>
             <p><strong>Características principais:</strong></p>
             <ul>
@@ -338,7 +338,21 @@ document.getElementById('resultado').innerHTML = textoResultado;
 document.getElementById('resultado').style.display = 'block';
 document.getElementById('resultado').style.visibility = 'initial';
 document.getElementById('img').style.display = 'none';
-    document.getElementById('titulo').style.visibility = 'hidden';
+document.getElementById('titulo').style.visibility = 'hidden';
+//mostrar botão feedback
+document.getElementById('chamarforms').style.display = 'block';
+
+//da funcioanlidade para o botão chamar forms
+document.getElementById('chamarformsbtn').onclick = () => {
+    mostrarforms()
+}
+}
+
+function mostrarforms(){
+    document.getElementById('forms').style.display = 'block';
+    document.getElementById('resultado').style.display = 'none';
+    document.getElementById('chamarforms').style.display = 'none';
+    
 }
 
 document.getElementById('iniciartestebtn').onclick = () => {
@@ -348,7 +362,6 @@ document.getElementById('iniciartestebtn').onclick = () => {
     document.getElementById('perguntasconteiner').style.display = 'block';
     //tira a imagem da introdução
     document.getElementById('imgIntrod').style.display = 'none'
-    //muda a imagem e titulo
     
     //chama a primeira pergunta
     mostrarpergunta();

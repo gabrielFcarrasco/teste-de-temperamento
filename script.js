@@ -56,7 +56,7 @@ const perguntas = [
     },
 
     {
-    texto: "6. Como você prefere passar seu tempo livre?",
+    texto: "Como você prefere passar seu tempo livre?",
         opcoes: [
             { texto: "Praticando esportes ou atividades físicas intensas.", valor: "a" },
             { texto: "Lendo um livro ou assistindo a um filme tranquilo.", valor: "b" },
@@ -66,7 +66,7 @@ const perguntas = [
     },
 
     {
-        texto: "7. Quando você tem que tomar uma decisão importante, você:",
+        texto: "Quando você tem que tomar uma decisão importante, você:",
         opcoes: [
             { texto: "Toma a decisão rapidamente com base na sua intuição.", valor: "a" },
             { texto: "Analisa todos os detalhes e possíveis consequências antes de decidir.", valor: "b" },
@@ -76,7 +76,7 @@ const perguntas = [
     },
 
     {
-        texto: "8. No trabalho em equipe, você geralmente:",
+        texto: "No trabalho em equipe, você geralmente:",
         opcoes: [
             { texto: "Gosta de assumir o papel de líder e coordenar as atividades.", valor: "a" },
             { texto: "Prefere trabalhar sozinho e contribuir com suas próprias ideias.", valor: "b" },
@@ -86,7 +86,7 @@ const perguntas = [
     },
 
     {
-        texto: "9. Como você lida com mudanças inesperadas?",
+        texto: "Como você lida com mudanças inesperadas?",
         opcoes: [
             { texto: "Adapta-se rapidamente e vê as mudanças como oportunidades.", valor: "a" },
             { texto: "Sente-se desconfortável e precisa de tempo para se ajustar.", valor: "b" },
@@ -127,6 +127,10 @@ function mostrarpergunta(){
         //adiciona o botão ao conteiner de opções
         opcoesConteiner.appendChild(botaoOpcao);
     });
+
+    document.getElementById('img').innerHTML = '<img src ="imgteste.png" width = "300px" style = "display: block;margin-bottom: -15px;width: 100%;">';
+    document.getElementById('titulo').innerText = 'Teste de temperamento';
+    //chama a primeira pergunta
 }
 
 //funcao para mostrar a proxima pergunta
@@ -160,8 +164,9 @@ function calcularResultado() {
     switch (temperamento) {
             case 'a':
                 textoResultado = `
-                <h2>Temperamento Colérico</h2>
-                <p>Você tem um temperamento colérico.</p>
+                <h1 style = "backgroud-color: #fb050d;">Você tem o Temperamento Colérico</h2>
+                <div><img src="colerico.png" alt="" width="100px"></div>
+                <h2>O Colérico.</h2>
                 <p><strong>Características principais:</strong></p>
                 <ul>
                     <li>Decidido e independente</li>
@@ -188,8 +193,9 @@ function calcularResultado() {
             break;
 
             case 'b': 
-                textoResultado = `<h2>Temperamento Melancólico</h2>
-                <p>Você tem um temperamento melancólico.</p>
+                textoResultado = `<h1 style = "backgroud-color: #069c07;">Voc~e tem o Temperamento Melancólico</h2>
+                <div><img src="melancolico.png" alt="" width="100px"></div>
+                <h2>O Melancólico.</h2>
                 <p><strong>Características principais:</strong></p>
                 <ul>
                     <li>Analítico e perfeccionista</li>
@@ -218,8 +224,9 @@ function calcularResultado() {
 
             case 'c':
         textoResultado = `
-            <h2>Temperamento Sanguíneo</h2>
-            <p>Você tem um temperamento sanguíneo.</p>
+            <h1 style = "backgroud-color: #f7b96a;">Você tem o Temperamento Sanguíneo</h1>
+            <div><img src="sanguineo.png" alt="" width="100px"></div>
+            <h2>O Sanguíneo.</h2>
             <p><strong>Características principais:</strong></p>
             <ul>
                 <li>Extrovertido e comunicativo</li>
@@ -247,8 +254,9 @@ function calcularResultado() {
         break;
     case 'd':
         textoResultado = `
-            <h2>Temperamento Fleumático</h2>
-            <p>Você tem um temperamento fleumático.</p>
+            <h1 style = "backgroud-color: #0765e2;">Você tem o Temperamento Fleumático</h1>
+            <div><img src="fleumatico.png" alt="" width="100px"></div>
+            <h2>O Fleumático.</h2>
             <p><strong>Características principais:</strong></p>
             <ul>
                 <li>Tranquilo e relaxado</li>
@@ -283,6 +291,8 @@ document.getElementById('resultado').innerHTML = textoResultado;
 // Exibe o container do resultado
 document.getElementById('resultado').style.display = 'block';
 document.getElementById('resultado').style.visibility = 'initial';
+document.getElementById('img').style.display = 'none';
+    document.getElementById('titulo').style.visibility = 'hidden';
 }
 
 document.getElementById('iniciartestebtn').onclick = () => {
@@ -290,9 +300,10 @@ document.getElementById('iniciartestebtn').onclick = () => {
     document.getElementById('introducaoconteiner').style.display = 'none';
     //mostrar conteiner de perguntas
     document.getElementById('perguntasconteiner').style.display = 'block';
-
+    //tira a imagem da introdução
+    document.getElementById('imgIntrod').style.display = 'none'
+    //muda a imagem e titulo
     
-
     //chama a primeira pergunta
     mostrarpergunta();
 };

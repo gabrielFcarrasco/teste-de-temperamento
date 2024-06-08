@@ -11,89 +11,7 @@ const perguntas = [
         ]
     },
 
-    {
-        texto: "Em uma festa, você geralmente:",
-
-        opcoes: [
-            {texto: "É o centro das atenções, organizando atividades e animando a todos.", valor: "a"},
-            {texto: "Fica em um canto, observando e analisando o comportamento das pessoas.", valor: "b"},
-            {texto: "Conversa com muitas pessoas e faz novas amizades facilmente.", valor: "c"},
-            {texto: "Fica com seu grupo de amigos próximos e prefere conversas mais tranquilas.", valor: "d"}
-        ]
-    },
-
-    {
-        texto: "Como você lida com críticas?",
-
-        opcoes: [
-            {texto: "Pode ficar irritado e defender seu ponto de vista vigorosamente.", valor: "a"},
-            {texto: "Tende a ficar magoado e pensar muito sobre o que foi dito.", valor: "b"},
-            {texto: "Leva na esportiva e tenta aprender com a crítica.", valor: "c"},
-            {texto: "Aceita a crítica com calma e reflete sobre ela com serenidade.", valor: "d"}
-        ]
-    },
-
-    {
-        texto: "Quando você está trabalhando em um projeto, você:",
-
-        opcoes: [
-            {texto: "Assume a liderança e direciona os outros.", valor: "a"},
-            {texto: "Foca nos detalhes e busca a perfeição.", valor: "b"},
-            {texto: "Gosta de trabalhar em equipe e compartilhar ideias.", valor: "c"},
-            {texto: "Prefere um ambiente estável e tranquilo para trabalhar.", valor: "d"}
-        ]
-    },
-
-    {
-    texto: "Em situações de estresse, você:",
-
-        opcoes: [
-            {texto: "Pode se tornar irritado e impaciente.", valor: "a"},
-            {texto: "Pode se sentir sobrecarregado e melancólico.", valor: "b"},
-            {texto: "Tenta se distrair e pensar positivamente.", valor: "c"},
-            {texto: "Fica calmo e tenta resolver as coisas pacificamente.", valor: "d"}
-        ]
-    },
-
-    {
-    texto: "Como você prefere passar seu tempo livre?",
-        opcoes: [
-            { texto: "Praticando esportes ou atividades físicas intensas.", valor: "a" },
-            { texto: "Lendo um livro ou assistindo a um filme tranquilo.", valor: "b" },
-            { texto: "Saindo com amigos e conhecendo lugares novos.", valor: "c" },
-            { texto: "Relaxando em casa, sem fazer muitas atividades.", valor: "d" }
-        ]
-    },
-
-    {
-        texto: "Quando você tem que tomar uma decisão importante, você:",
-        opcoes: [
-            { texto: "Toma a decisão rapidamente com base na sua intuição.", valor: "a" },
-            { texto: "Analisa todos os detalhes e possíveis consequências antes de decidir.", valor: "b" },
-            { texto: "Consulta várias pessoas para ouvir diferentes opiniões.", valor: "c" },
-            { texto: "Prefere esperar e ver se a decisão pode ser adiada.", valor: "d" }
-        ]
-    },
-
-    {
-        texto: "No trabalho em equipe, você geralmente:",
-        opcoes: [
-            { texto: "Gosta de assumir o papel de líder e coordenar as atividades.", valor: "a" },
-            { texto: "Prefere trabalhar sozinho e contribuir com suas próprias ideias.", valor: "b" },
-            { texto: "Se sente à vontade colaborando e trocando ideias constantemente.", valor: "c" },
-            { texto: "Gosta de manter a paz e resolver conflitos entre os membros da equipe.", valor: "d" }
-        ]
-    },
-
-    {
-        texto: "Como você lida com mudanças inesperadas?",
-        opcoes: [
-            { texto: "Adapta-se rapidamente e vê as mudanças como oportunidades.", valor: "a" },
-            { texto: "Sente-se desconfortável e precisa de tempo para se ajustar.", valor: "b" },
-            { texto: "Aceita as mudanças, mas busca apoio de amigos e colegas.", valor: "c" },
-            { texto: "Mantém a calma e tenta encontrar soluções práticas.", valor: "d" }
-        ]
-    },
+   
 ];
 
 //variavel que mantém o índece da pergunta atual
@@ -202,6 +120,7 @@ function calcularResultado() {
                 <li>Buscar feedback e trabalhar na gestão da raiva.</li>
             </ul>
         `;
+        document.body.classList.toggle('colerico')
         break;
     case 'b':
         textoResultado = `
@@ -245,6 +164,7 @@ function calcularResultado() {
                 <li>Envolver-se em atividades sociais para reduzir o isolamento;</li>
             </ul>
         `;
+        document.body.classList.toggle('melancolico')
         break;
     case 'c':
         textoResultado = `
@@ -252,7 +172,7 @@ function calcularResultado() {
 #f7b96a;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento Sanguíneo.</h1>
             <div>
             <img src="sanguineo.png" alt="sanguineo.png" width="100px">
-            <h2 style ="color: #f7b96a;"> O Sanguíneo </h2>
+            <h2 style ="color: #8b572a;"> O Sanguíneo </h2>
             </div>
             <p><strong>Características principais:</strong></p>
             <ul>
@@ -286,6 +206,7 @@ function calcularResultado() {
                 <li>Buscar equilíbrio entre socialização e responsabilidades.</li>
             </ul>
         `;
+        document.body.classList.toggle('sanguineo')
         break;
     case 'd':
         textoResultado = `
@@ -327,6 +248,7 @@ function calcularResultado() {
                 <li>Buscar feedback e aprender a lidar com críticas construtivas.</li>
             </ul>
         `;
+        document.body.classList.toggle('fleuma')
         break;
         }
 // Esconde o texto do teste

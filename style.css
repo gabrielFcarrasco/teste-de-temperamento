@@ -10,11 +10,101 @@ body{
     color: #e0e0e0;
 }
 
-#modonoturno{
-    position: absolute;
-    top: 130px;
-    left: 250px;
+body.fleuma {
+    background-color: #0765e2;
+    color: #0765e2;
 }
+
+body.fleuma .conteiner{
+    background-color: #c4d8f4;
+}
+
+body.fleuma p {
+    color: #20457c;
+}
+
+body.fleuma #resultado{
+    background: #9bbde8;
+    color: #0765e2;
+}
+
+body.sanguineo {
+    background-color: #f7b96a;
+}
+
+body.sanguineo .conteiner{
+    background-color: #f9d5a1;
+    color: #8b572a;
+}
+
+body.sanguineo p{
+    color: #8b572a;
+}
+
+body.sanguineo #resultado{
+    background: #f9d5a1; /* Cor mais clara */
+    color: #8b572a;
+}
+
+body.colerico {
+    background-color: #fb050d;
+}
+
+body.colerico .conteiner{
+    background-color: #fc8589;
+}
+
+body.colerico p {
+    color: #fb050d;
+}
+
+body.colerico #resultado{
+    background: #ffcccb;
+    color:  #fb050d;
+}
+
+
+body.melancolico {
+    background-color: #069c07;
+}
+
+body.melancolico .conteiner{
+    background-color: #80d580;
+}
+
+body.melancolico p {
+    color: #069c07;
+}
+
+body.melancolico #resultado{
+    background:  #e5ffe5;
+    color: #069c07;
+}
+
+.inicialh2{
+    color: red;
+}
+
+.inicialP{
+    background-color:#2e2e2e; 
+    padding: 15px;
+    border-radius: 10px;
+    color: #20457c;
+}
+
+.alertaspan{
+    display: block;
+    margin-top: 15px;
+}
+
+.obs{
+    display: block;
+    margin-top: 15px;
+    color: orange;
+    padding: 8px;
+}
+
+
 
 .conteiner{
     width: 90%;
@@ -24,7 +114,9 @@ body{
     padding: 10px;
     text-align: center;
     background-color: #1e1e1e;
+    border-radius: 10px;
 }
+
 
 h1{
     font-size: 2em;
@@ -92,8 +184,7 @@ button:active{
     border-radius: 5px;
     visibility: hidden;
     overflow: auto;
-    background: #2e2e2e;
-    color: #e0e0e0;
+    background: #9bbde8;
 }
 
 #chamarformsbtn{

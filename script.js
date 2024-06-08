@@ -162,123 +162,169 @@ function calcularResultado() {
     // Determina o texto do resultado com base na pontuação
     let textoResultado = '';
     switch (temperamento) {
-            case 'a':
-                textoResultado = `
-                <h1 style = "backgroud-color: #fb050d;">Você tem o Temperamento Colérico</h2>
-                <div><img src="colerico.png" alt="" width="100px"></div>
-                <h2>O Colérico.</h2>
-                <p><strong>Características principais:</strong></p>
-                <ul>
-                    <li>Decidido e independente</li>
-                    <li>Proativo e orientado para resultados</li>
-                    <li>Consegue motivar e liderar equipes</li>
-                </ul>
-                <p><strong>Pontos Positivos:</strong></p>
-                <ul>
-                    <li>Alta capacidade de liderança</li>
-                    <li>Confiante e determinado</li>
-                    <li>Grande energia e entusiasmo</li>
-                </ul>
-                <p><strong>Pontos Negativos:</strong></p>
-                <ul>
-                    <li>Propenso a irritabilidade e impaciência</li>
-                    <li>Pode ser dominante e autoritário</li>
-                </ul>
-                <p><strong>Dicas para melhoria:</strong></p>
-                <ul>
-                    <li>Praticar a paciência e a escuta ativa</li>
-                    <li>Reconhecer e valorizar as contribuições dos outros</li>
-                    <li>Desenvolver empatia e habilidades interpessoais</li>
-                </ul>`;
-            break;
-
-            case 'b': 
-                textoResultado = `<h1 style = "backgroud-color: #069c07;">Voc~e tem o Temperamento Melancólico</h2>
-                <div><img src="melancolico.png" alt="" width="100px"></div>
-                <h2>O Melancólico.</h2>
-                <p><strong>Características principais:</strong></p>
-                <ul>
-                    <li>Analítico e perfeccionista</li>
-                    <li>Leal e confiável</li>
-                    <li>Altamente criativo e artístico</li>
-                </ul>
-                <p><strong>Pontos Positivos:</strong></p>
-                <ul>
-                    <li>Capacidade de análise profunda</li>
-                    <li>Lealdade e comprometimento</li>
-                    <li>Sensibilidade artística e criatividade</li>
-                </ul>
-                <p><strong>Pontos Negativos:</strong></p>
-                <ul>
-                    <li>Tendência ao perfeccionismo excessivo</li>
-                    <li>Susceptível a preocupações e ansiedades</li>
-                </ul>
-                <p><strong>Dicas para melhoria:</strong></p>
-                <ul>
-                    <li>Praticar a autoaceitação e cultivar pensamentos positivos</li>
-                    <li>Estabelecer metas realistas e focar nos aspectos positivos</li>
-                    <li>Aprender a delegar tarefas e confiar nos outros</li>
-                </ul>
-            `;
-            break;
-
-            case 'c':
+              case 'a':
         textoResultado = `
-            <h1 style = "backgroud-color: #f7b96a;">Você tem o Temperamento Sanguíneo</h1>
-            <div><img src="sanguineo.png" alt="" width="100px"></div>
-            <h2>O Sanguíneo.</h2>
+           <h1 class="result" style = "background-color:
+#fb050d;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento Colérico.</h1>
+           <div>
+           <img src="colerico.png" alt="colerico.png" width = "100px">
+            <h2>O Colérico</h2>
+            </div>
+            <p><strong>Características principais:</strong></p>
+            <ul>
+                <li>Decidido e independente</li>
+                <li>Proativo e orientado para resultados</li>
+                <li>Consegue motivar e liderar equipes</li>
+                <li>Tende a ser assertivo e direto na comunicação;</li>
+                <li>Gosta de assumir o controle e resolver problemas rapidamente.</li>
+            </ul>
+            <p><strong>Pontos Positivos:</strong></p>
+            <ul>
+                <li>Alta capacidade de liderança</li>
+                <li>Confiante e determinado</li>
+                <li>Grande energia e entusiasmo</li>
+                <li>Rápida tomada de decisões;</li>
+                <li>Excelente para enfrentar desafios.</li>
+            </ul>
+            <p><strong>Pontos Negativos:</strong></p>
+            <ul>
+                <li>Propenso a irritabilidade e impaciência</li>
+                <li>Pode ser dominante e autoritário</li>
+                <li>Tendência a agir impulsivamente;</li>
+                <li>Pode ignorar os sentimentos dos outros.</li>
+            </ul>
+            <p><strong>Dicas para melhoria:</strong></p>
+            <ul>
+                <li>Praticar a paciência e a escuta ativa</li>
+                <li>Reconhecer e valorizar as contribuições dos outros</li>
+                <li>Desenvolver empatia e habilidades interpessoais</li>
+                <li>Aprender a controlar impulsos e reações;</li>
+                <li>Buscar feedback e trabalhar na gestão da raiva.</li>
+            </ul>
+        `;
+        break;
+    case 'b':
+        textoResultado = `
+            <h1 class="result" style = "background-color: #069c07;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento Melancólico.</h1>
+            <div>
+            <img src="melancolico.png" alt="melancolico.png" width="100px">
+            <h2>O Melancólico</h2>
+            </div>
+            <p><strong>Características principais:</strong></p>
+            <ul>
+                <li>Analítico e perfeccionista</li>
+                <li>Leal e confiável</li>
+                <li>Altamente criativo e artístico</li>
+                <li>Sensível e introspectivo;</li>
+                <li>Gosta de planejamento e organização detalhada;</li>
+            </ul>
+            <p><strong>Pontos Positivos:</strong></p>
+            <ul>
+                <li>Capacidade de análise profunda</li>
+                <li>Lealdade e comprometimento</li>
+                <li>Sensibilidade artística e criatividade</li>
+                <li>Grande empatia e compaixão;</li>
+                <li>Habilidade para resolver problemas complexos;</li>
+                <li>Forte senso de responsabilidade;</li>
+            </ul>
+            <p><strong>Pontos Negativos:</strong></p>
+            <ul>
+                <li>Tendência ao perfeccionismo excessivo</li>
+                <li>Susceptível a preocupações e ansiedades</li>
+                <li>Propenso a mudanças de humor e introspecção excessiva;</li>
+                <li>Dificuldade em lidar com críticas;</li>
+                <li>Facilidade em se sentir sobrecarregado por detalhes.</li>
+            </ul>
+            <p><strong>Dicas para melhoria:</strong></p>
+            <ul>
+                <li>Praticar a autoaceitação e cultivar pensamentos positivos</li>
+                <li>Estabelecer metas realistas e focar nos aspectos positivos</li>
+                <li>Aprender a delegar tarefas e confiar nos outros</li>
+                <li>Buscar atividades que promovam o relaxamento e o bem-estar;</li>
+                <li>Trabalhar na flexibilidade e adaptabilidade em situações inesperadas;</li>
+                <li>Envolver-se em atividades sociais para reduzir o isolamento;</li>
+            </ul>
+        `;
+        break;
+    case 'c':
+        textoResultado = `
+            <h1 class="result" style = "background-color: 
+#f7b96a;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento Sanguíneo.</h1>
+            <div>
+            <img src="sanguineo.png" alt="sanguineo.png" width="100px">
+            <h2> O Sanguíneo </h2>
+            </div>
             <p><strong>Características principais:</strong></p>
             <ul>
                 <li>Extrovertido e comunicativo</li>
                 <li>Entusiasta e energético</li>
                 <li>Sociável e amigável</li>
+                <li>Alegre e otimista;</li>
+                <li>Adapta-se facilmente a novas situações.</li>
             </ul>
             <p><strong>Pontos Positivos:</strong></p>
             <ul>
                 <li>Capacidade de adaptação e flexibilidade</li>
                 <li>Carisma e habilidades sociais</li>
                 <li>Capacidade de inspirar e motivar os outros</li>
+                <li>Capacidade de inspirar e motivar os outros;</li>
+                <li>Facilidade em fazer novas amizades.</li>
             </ul>
             <p><strong>Pontos Negativos:</strong></p>
             <ul>
                 <li>Propenso a distrações e falta de foco</li>
                 <li>Pode evitar confrontos e responsabilidades</li>
+                <li>Tendência a agir impulsivamente;</li>
+                <li>Pode ser visto como superficial ou pouco confiável.</li>
             </ul>
             <p><strong>Dicas para melhoria:</strong></p>
             <ul>
                 <li>Praticar o foco e a disciplina</li>
                 <li>Estabelecer prioridades e metas claras</li>
                 <li>Aprender a dizer não e assumir responsabilidades</li>
+                <li>Desenvolver habilidades de organização e planejamento;</li>
+                <li>Buscar equilíbrio entre socialização e responsabilidades.</li>
             </ul>
         `;
         break;
     case 'd':
         textoResultado = `
-            <h1 style = "backgroud-color: #0765e2;">Você tem o Temperamento Fleumático</h1>
-            <div><img src="fleumatico.png" alt="" width="100px"></div>
-            <h2>O Fleumático.</h2>
+            <h1 class="result" style = "background-color: 
+#0765e2;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento fleumático.</h1>
+            <div>
+            <img src="fleumatico.png" alt="fleumatico.png" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">
+            <h2>O Fleumático</h2>
+            </div>
             <p><strong>Características principais:</strong></p>
             <ul>
                 <li>Tranquilo e relaxado</li>
                 <li>Tolerante e compreensivo</li>
                 <li>Estável e consistente</li>
+                <li>Reservado e introspectivo;</li>
+                <li>Aversão a conflitos e confrontos.</li>
             </ul>
             <p><strong>Pontos Positivos:</strong></p>
             <ul>
                 <li>Capacidade de manter a calma em situações estressantes</li>
                 <li>Habilidade para ouvir e oferecer apoio aos outros</li>
                 <li>Equilíbrio emocional e capacidade de resolver conflitos</li>
+                <li>Senso de ponderação e análise antes de agir;</li>
+                <li>Facilidade em aceitar mudanças e adaptar-se.</li>
             </ul>
             <p><strong>Pontos Negativos:</strong></p>
             <ul>
                 <li>Tendência à complacência e falta de iniciativa</li>
                 <li>Pode evitar confrontos e evitar tomar decisões difíceis</li>
+                <li>Pode ser visto como passivo ou indeciso;</li>
+                <li>Resistência a sair da zona de conforto.</li>
             </ul>
             <p><strong>Dicas para melhoria:</strong></p>
             <ul>
                 <li>Definir metas claras e buscar desafios</li>
                 <li>Praticar a assertividade e a expressão de opiniões</li>
-                <li>Desenvolver habilidades de liderança e iniciativa</li>
+                <li>Desenvolver habilidades de liderança iniciativa</li>
+                <li>Buscar oportunidades para sair da zona de conforto;</li>
+                <li>Buscar feedback e aprender a lidar com críticas construtivas.</li>
             </ul>
         `;
         break;

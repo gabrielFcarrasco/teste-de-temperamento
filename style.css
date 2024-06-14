@@ -13,7 +13,9 @@ body{
 body.fleuma {
     background-color: #0765e2;
     color: #0765e2;
+    
 }
+
 
 body.fleuma .conteiner{
     background-color: #c4d8f4;
@@ -33,8 +35,8 @@ body.sanguineo {
 }
 
 body.sanguineo .conteiner{
-    background-color: #f9d5a1;
-    color: #8b572a;
+    background-color: #f9d5a1; /* Cor de fundo suave para o container */
+    color: #8b572a; /
 }
 
 body.sanguineo p{
@@ -42,7 +44,7 @@ body.sanguineo p{
 }
 
 body.sanguineo #resultado{
-    background: #f9d5a1; /* Cor mais clara */
+    background: #f8e3c0; /* Cor mais clara */
     color: #8b572a;
 }
 
@@ -89,7 +91,7 @@ body.melancolico #resultado{
     background-color:#2e2e2e; 
     padding: 15px;
     border-radius: 10px;
-    color: #20457c;
+    color: white;
 }
 
 .alertaspan{
@@ -208,3 +210,24 @@ ul{
  li{
   margin-bottom: 15px; /* Espaçamento entre os itens da lista */
  }
+
+ .f0, .f1, .f2, .f3, .f4 {
+    position: relative;
+    text-align: center;
+}
+
+.btn2, .btn4, .btn6, .btn8 {
+    position: absolute; 
+    top: 50%;
+    padding: 3px 0 0 0; 
+    left: -5px; 
+    transform: translateY(-50%);
+}
+
+.btn1, .btn3, .btn5, .btn7{
+    position: absolute; 
+    top: 50%; 
+    right: -5px; 
+    padding: 3px 0 0 0;
+    transform: translateY(-50%);
+}

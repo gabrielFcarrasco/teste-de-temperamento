@@ -314,7 +314,7 @@ function calcularResultado() {
 </div>
         `;
         document.getElementById('titulo').innerHTML = `<h1 class="result" style = "background-color: 
-#069c07;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento fleumático.</h1><img src="fleumatico.png" alt="fleumatico.png" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
+#069c07;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento fleumático.</h1><img src="fleumatico.png" alt="melancolico.png" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
         document.body.classList.toggle('melancolico')
         break;
     case 'c':

@@ -168,9 +168,10 @@ function calcularResultado() {
            <div class="f0">
             <h2 style ="color: #fb050d;">O Colérico</h2>
             <img src="diver-colerico.png" width="150">
-            <h4>Descubra as principais características do Colérico</h4>
-    <button class="btn1" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+            <h3>Clique na seta &gt; para</h3>
+            <h4>Descubrir as principais características do Colérico</h4>
+    <button class="btn1" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #fb050d; margin-top: 15px;">
+        &gt;
     </button>
 </div>
         <div class="f1" style="display: none;">
@@ -182,11 +183,11 @@ function calcularResultado() {
                 <li>Tende a ser assertivo e direto na comunicação;</li>
                 <li>Gosta de assumir o controle e resolver problemas rapidamente.</li>
             </ul>
-<button class="btn2" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+<button class="btn2" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(251, 5, 13, 0.5); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
-    <button class="btn3" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+    <button class="btn3" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #fb050d; margin-top: 15px;">
+        &gt;
     </button>
 </div>
         <div class="f2" style="display: none;">
@@ -198,11 +199,11 @@ function calcularResultado() {
                 <li>Rápida tomada de decisões;</li>
                 <li>Excelente para enfrentar desafios.</li>
             </ul>
-            <button class="btn4" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+            <button class="btn4" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(251, 5, 13, 0.5); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
-    <button class="btn5" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+    <button class="btn5" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #fb050d; margin-top: 15px;">
+        &gt;
     </button>
 </div>
         <div class="f3" style="display: none;">
@@ -213,11 +214,11 @@ function calcularResultado() {
                 <li>Tendência a agir impulsivamente;</li>
                 <li>Pode ignorar os sentimentos dos outros.</li>
             </ul>
-            <button class="btn6" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+            <button class="btn6" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(251, 5, 13, 0.5); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
-    <button class="btn7" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+    <button class="btn7" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #fb050d; margin-top: 15px;">
+        &gt;
     </button>
 </div>
         <div class="f4" style="display: none;">
@@ -229,8 +230,8 @@ function calcularResultado() {
                 <li>Aprender a controlar impulsos e reações;</li>
                 <li>Buscar feedback e trabalhar na gestão da raiva.</li>
             </ul>
-    <button class="btn8" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        <
+    <button class="btn8" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(251, 5, 13, 0.5); margin-top: 15px;">
+        &lt;
     </button>
 </div>
         `; 
@@ -243,9 +244,10 @@ function calcularResultado() {
             <div class="f0">
             <h2 style ="color: #069c07;">O Melancólico</h2>
             <img src="diver-melancolico.png" width="150">
-            <h4>Descubra as principais características do Melancólico</h4>
-            <button class="btn1" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+            <h3>Clique na seta &gt; para</h3>
+            <h4>Descubrir as principais características do Melancólico</h4>
+            <button class="btn1" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #069c07; margin-top: 15px;">
+        &gt;
     </button>
 </div>
              <div class="f1" style="display: none;">
@@ -257,11 +259,11 @@ function calcularResultado() {
                 <li>Sensível e introspectivo;</li>
                 <li>Gosta de planejamento e organização detalhada;</li>
             </ul>
-<button class="btn2" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+<button class="btn2" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(6, 156, 7, 0.5); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
-    <button class="btn3" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+    <button class="btn3" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #069c07; margin-top: 15px;">
+        &gt;
     </button>
 </div>
  <div class="f2" style="display: none;">
@@ -274,11 +276,11 @@ function calcularResultado() {
                 <li>Habilidade para resolver problemas complexos;</li>
                 <li>Forte senso de responsabilidade;</li>
             </ul>
-<button class="btn4" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+<button class="btn4" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(6, 156, 7, 0.5); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
-    <button class="btn5" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+    <button class="btn5" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #069c07; margin-top: 15px;">
+        &gt;
     </button>
 </div>
              <div class="f3" style="display: none;">
@@ -292,11 +294,11 @@ function calcularResultado() {
             </ul>
             <p><strong>Dicas para melhoria:</strong></p>
             <ul>
-<button class="btn6" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+<button class="btn6" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(6, 156, 7, 0.5); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
-    <button class="btn7" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+    <button class="btn7" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #069c07; margin-top: 15px;">
+        &gt;
     </button>
 </div>
 <div class="f4" style="display: none;">
@@ -308,13 +310,13 @@ function calcularResultado() {
         <li>Trabalhar na flexibilidade e adaptabilidade em situações inesperadas;</li>
         <li>Envolver-se em atividades sociais para reduzir o isolamento;</li>
     </ul>
-    <button class="btn5" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+    <button class="btn8" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(6, 156, 7, 0.5); margin-top: 15px;">
+        &lt;
     </button>
 </div>
         `;
         document.getElementById('titulo').innerHTML = `<h1 class="result" style = "background-color: 
-#069c07;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento fleumático.</h1><img src="fleumatico.png" alt="fleumatico.png" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
+#069c07;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento Melancólico.</h1><img src="melancolico.png" alt="fleumatico.png" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
         document.body.classList.toggle('melancolico')
         break;
     case 'c':
@@ -322,9 +324,10 @@ function calcularResultado() {
     <div class="f0">
         <h2 style ="color: #8b572a;"> O Sanguíneo </h2>
         <img src="diver-sanguineo.png" width="150">
-        <h4>Descubra as principais características do Sanguíneo</h4>
-        <button class="btn1" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+        <h3>Clique na seta &gt; para</h3>
+        <h4>Descubrir as principais características do Sanguíneo</h4>
+        <button class="btn1" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #f7b96a; margin-top: 15px;">
+        &gt;
     </button>
 </div>
             </div>
@@ -337,11 +340,11 @@ function calcularResultado() {
                 <li>Alegre e otimista;</li>
                 <li>Adapta-se facilmente a novas situações.</li>
             </ul>
-<button class="btn2" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+<button class="btn2" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(247, 185, 106, 0.7); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
-    <button class="btn3" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+    <button class="btn3" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #f7b96a; margin-top: 15px;">
+        &gt;
     </button>
 </div>
            <div class="f2" style="display: none;"> 
@@ -353,11 +356,11 @@ function calcularResultado() {
                 <li>Capacidade de inspirar e motivar os outros;</li>
                 <li>Facilidade em fazer novas amizades.</li>
             </ul>
-<button class="btn4" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+<button class="btn4" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(247, 185, 106, 0.7); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
-    <button class="btn5" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+    <button class="btn5" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #f7b96a; margin-top: 15px;">
+        &gt;
     </button>
 </div>
             <div class="f3" style="display: none;">
@@ -368,11 +371,11 @@ function calcularResultado() {
                 <li>Tendência a agir impulsivamente;</li>
                 <li>Pode ser visto como superficial ou pouco confiável.</li>
             </ul>
-<button class="btn6" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+<button class="btn6" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(247, 185, 106, 0.7); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
-    <button class="btn7" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+    <button class="btn7" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #f7b96a; margin-top: 15px;">
+        &gt;
     </button>
 </div>
            <div class="f4" style="display: none;"> 
@@ -384,8 +387,8 @@ function calcularResultado() {
                 <li>Desenvolver habilidades de organização e planejamento;</li>
                 <li>Buscar equilíbrio entre socialização e responsabilidades.</li>
             </ul>
-            <button class="btn8" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px;">
-        <
+            <button class="btn8" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(247, 185, 106, 0.7); margin-top: 15px;">
+        &lt;
     </button>
 </div>
         `;
@@ -398,9 +401,10 @@ function calcularResultado() {
             <div class="f0">
     <h2 style="color: #0765e2;">O Fleumático</h2>
     <img src="diver-fleuma.png" width="150">
-    <h4>Descubra as principais características do Fleumático</h4>
+    <h3>Clique na seta &gt; para</h3>
+    <h4>Descubrir as principais características do Fleumático</h4>
     <button class="btn1" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+        &gt;
     </button>
 </div>
 <div class="f1" style="display: none;">
@@ -412,11 +416,11 @@ function calcularResultado() {
         <li>Reservado e introspectivo;</li>
         <li>Aversão a conflitos e confrontos.</li>
     </ul>
-    <button class="btn2" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+    <button class="btn2" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.5); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
     <button class="btn3" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+        &gt;
     </button>
 </div>
 <div class="f2" style="display: none;">
@@ -428,11 +432,11 @@ function calcularResultado() {
         <li>Senso de ponderação e análise antes de agir;</li>
         <li>Facilidade em aceitar mudanças e adaptar-se.</li>
     </ul>
-    <button class="btn4" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+    <button class="btn4" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.5); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
     <button class="btn5" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+        &gt;
     </button>
 </div>
 <div class="f3" style="display: none;">
@@ -443,11 +447,11 @@ function calcularResultado() {
         <li>Pode ser visto como passivo ou indeciso;</li>
         <li>Resistência a sair da zona de conforto.</li>
     </ul>
-    <button class="btn6" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px; margin-right: 5px;">
-        <
+    <button class="btn6" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.5); margin-top: 15px; margin-right: 5px;">
+        &lt;
     </button>
     <button class="btn7" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: #0765e2; margin-top: 15px;">
-        >
+        &gt;
     </button>
 </div>
 <div class="f4" style="display: none;">
@@ -459,15 +463,15 @@ function calcularResultado() {
         <li>Buscar oportunidades para sair da zona de conforto;</li>
         <li>Buscar feedback e aprender a lidar com críticas construtivas.</li>
     </ul>
-    <button class="btn8" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.7); margin-top: 15px;">
-        <
+    <button class="btn8" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(7, 101, 226, 0.5); margin-top: 15px;">
+        &lt;
     </button>
 </div>
 
         `;
 
         document.getElementById('titulo').innerHTML = `<h1 class="result" style = "background-color: 
-#0765e2;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento fleumático.</h1><img src="fleumatico.png" alt="fleumatico.png" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
+        #0765e2;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento fleumático.</h1><img src="fleumatico.png" alt="fleumatico.png" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
         document.body.classList.toggle('fleuma')
         break;
         }
@@ -491,11 +495,55 @@ document.getElementById('chamarformsbtn').onclick = () => {
 document.getElementsByClassName("btn1")[0].addEventListener("click", function() {
     document.getElementsByClassName('f0')[0].style.display = 'none';
     document.getElementsByClassName('f1')[0].style.display = 'block';
+
+    switch (temperamento){
+        case ('a'):
+            document.getElementById('titulo').innerHTML = `<h1 class="result" style = "background-color: 
+            #fb050d;color: white;padding: 10px;font-size: 20px;">O Colérico</h1><img src="diver-colerico.png" alt="raiva divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
+        break;
+
+        case ('b'):
+            document.getElementById('titulo').innerHTML = `<h1 class="result" style = "
+            color: #069c07; padding: 10px;font-size: 20px;">O Melancólico</h1><img src="diver-melancolico.png" alt="tristeza divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
+        break;
+
+        case ('c'):
+            document.getElementById('titulo').innerHTML = `<h1 class="result" style = ": 
+            color: #f7b96a; padding: 10px;font-size: 20px;">O Sanguíneo</h1><img src="diver-sanguineo.png" alt="alegria divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
+        break;
+
+        case ('d'):
+            `<h1 class="result" style = "background-color: 
+            #0765e2;color: white;padding: 10px;font-size: 20px;">O fleumático</h1><img src="diver-fleuma.png" alt="medo divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
+        break;
+    }
 });
 
 document.getElementsByClassName("btn2")[0].addEventListener("click", function() {
     document.getElementsByClassName('f1')[0].style.display = 'none';
     document.getElementsByClassName('f0')[0].style.display = 'block';
+
+    switch (temperamento){
+        case ('a'):
+            document.getElementById('titulo').innerHTML = `<h1 class="result" style = "background-color: 
+            #fb050d;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento Colerico.</h1><img src="colerico.png" alt="raiva divertidamente" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
+        break;
+
+        case ('b'):
+            document.getElementById('titulo').innerHTML = `<h1 class="result" style = "background-color: 
+            #069c07;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento Melancólico.</h1><img src="melancolico.png" alt="tristeza divertidamente" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
+        break;
+
+        case ('c'):
+            document.getElementById('titulo').innerHTML = `<h1 class="result" style = "background-color: 
+            #f7b96a;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento Sanguíneo.</h1><img src="sanguineo.png" alt="alegria divertidamente" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
+        break;
+
+        case ('d'):
+            `<h1 class="result" style = "background-color: 
+            #0765e2;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento fleumático.</h1><img src="fleumatico.png" alt="medo divertidamente" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
+        break;
+    }
 });
 
 document.getElementsByClassName("btn3")[0].addEventListener("click", function() {

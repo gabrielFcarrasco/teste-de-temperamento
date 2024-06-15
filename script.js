@@ -498,23 +498,21 @@ document.getElementsByClassName("btn1")[0].addEventListener("click", function() 
 
     switch (temperamento){
         case ('a'):
-            document.getElementById('titulo').innerHTML = `<h1 class="result" style = "background-color: 
-            #fb050d;color: white;padding: 10px;font-size: 20px;">O Colérico</h1><img src="diver-colerico.png" alt="raiva divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
+            document.getElementById('titulo').innerHTML = `<h1 class="result" style = "color: #fb050d; padding: 10px;font-size: 25px;">O Colérico</h1><img src="diver-colerico.png" alt="raiva divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
         break;
 
         case ('b'):
             document.getElementById('titulo').innerHTML = `<h1 class="result" style = "
-            color: #069c07; padding: 10px;font-size: 20px;">O Melancólico</h1><img src="diver-melancolico.png" alt="tristeza divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
+            color: #069c07; padding: 10px;font-size: 25px;">O Melancólico</h1><img src="diver-melancolico.png" alt="tristeza divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
         break;
 
         case ('c'):
             document.getElementById('titulo').innerHTML = `<h1 class="result" style = ": 
-            color: #f7b96a; padding: 10px;font-size: 20px;">O Sanguíneo</h1><img src="diver-sanguineo.png" alt="alegria divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
+            color: #f7b96a; padding: 10px;font-size: 25px;">O Sanguíneo</h1><img src="diver-sanguineo.png" alt="alegria divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
         break;
 
         case ('d'):
-            `<h1 class="result" style = "background-color: 
-            #0765e2;color: white;padding: 10px;font-size: 20px;">O fleumático</h1><img src="diver-fleuma.png" alt="medo divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
+            document.getElementById('titulo').innerHTML = `<h1 class="result" style = "color: #0765e2; padding: 10px;font-size: 20px;"> O Fleumático.</h1><img src="diver-fleuma.png" alt="medo divertidamente" width="150px" style = "margin-top: 10px; margin-bottom: -30px;">`
         break;
     }
 });
@@ -540,8 +538,8 @@ document.getElementsByClassName("btn2")[0].addEventListener("click", function() 
         break;
 
         case ('d'):
-            `<h1 class="result" style = "background-color: 
-            #0765e2;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento fleumático.</h1><img src="fleumatico.png" alt="medo divertidamente" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
+            document.getElementById('titulo').innerHTML = `<h1 class="result" style = "background-color: 
+            #0765e2;color: white;padding: 10px;font-size: 20px;">Você tem um temperamento fleumático.</h1><img src="fleumatico.png" alt="fleumatico.png" width="100px" style = "margin-top: 10px; margin-bottom: -30px;">`
         break;
     }
 });

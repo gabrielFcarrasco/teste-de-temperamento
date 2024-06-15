@@ -581,7 +581,7 @@ function mostrarforms(){
     document.getElementById('forms').style.display = 'block';
     document.getElementById('resultado').style.display = 'none';
     document.getElementById('chamarforms').style.display = 'none';
-    
+    document.getElementById('titulo').style.display = 'none';
 }
 
 document.getElementById('iniciartestebtn').onclick = () => {

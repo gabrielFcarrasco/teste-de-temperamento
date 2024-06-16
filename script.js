@@ -129,9 +129,13 @@ function mostrarpergunta(){
         opcoesConteiner.appendChild(botaoOpcao);
     });
 
+    //mostra a barra de progresso
+    document.getElementById('progress-bar').style.display = 'block';
+
     document.getElementById('img').innerHTML = '<img src ="imgteste.png" width = "300px" style = "display: block;margin-bottom: -15px;width: 100%;">';
     document.getElementById('titulo').innerText = 'Teste de temperamento';
     //chama a primeira pergunta
+
 }
 
 //funcao para mostrar a proxima pergunta
@@ -141,10 +145,18 @@ function proximaPergunta() {
     //se houver mais perguntas mostrar a proxima pergunta
     if (indicePerguntasAtual < perguntas.length){
         mostrarpergunta();
+        updateProgressBar();
     }else {
         //se não tiver mais perguntas, calcula o resultado
         calcularResultado();
+        document.getElementById('progress-bar').style.display = 'none';
     }
+}
+
+function updateProgressBar() {
+    const progressBar = document.getElementById('progress-bar');
+    const progress = ((indicePerguntasAtual + 1) / perguntas.length) * 100;
+    progressBar.style.width = `${progress}%`;
 }
 
 // Função para calcular o resultado final
@@ -592,4 +604,5 @@ document.getElementById('iniciartestebtn').onclick = () => {
     
     //chama a primeira pergunta
     mostrarpergunta();
+    updateProgressBar();
 };

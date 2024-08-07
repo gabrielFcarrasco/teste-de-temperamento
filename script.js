@@ -303,8 +303,7 @@ function calcularResultado() {
                 <li>Propenso a mudanças de humor e introspecção excessiva;</li>
                 <li>Dificuldade em lidar com críticas;</li>
                 <li>Facilidade em se sentir sobrecarregado por detalhes.</li>
-            </ul>
-            <p><strong>Dicas para melhoria:</strong></p>
+            </ul>
             <ul>
 <button class="btn6" style="border: none; cursor: pointer; border-radius: 5px; font-size: 30px; color: white; background-color: rgba(6, 156, 7, 0.5); margin-top: 15px; margin-right: 5px;">
         &lt;
@@ -315,6 +314,7 @@ function calcularResultado() {
 </div>
 <div class="f4" style="display: none;">
     <ul>
+            <p><strong>Dicas para melhoria:</strong></p>
         <li>Praticar a autoaceitação e cultivar pensamentos positivos</li>
         <li>Estabelecer metas realistas e focar nos aspectos positivos</li>
         <li>Aprender a delegar tarefas e confiar nos outros</li>

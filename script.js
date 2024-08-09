@@ -515,7 +515,7 @@ document.getElementsByClassName("btn1")[0].addEventListener("click", function() 
 
         case ('b'):
             document.getElementById('titulo').innerHTML = `<h1 class="result" style = "
-            color: #069c07; padding: 10px;font-size: 25px;">O Melancólico</h1><img src="diver-melancolico.png" alt="tristeza divertidamente" width="200px" style = "margin-top: 10px; margin-bottom: -30px;">`
+            color: #069c07; padding: 10px;font-size: 25px;">O Melancólico</h1><img src="diver-melancolico.png" alt="tristeza divertidamente" width="180px" style = "margin-top: 10px; margin-bottom: -30px;">`
         break;
 
         case ('c'):
